@@ -87,7 +87,13 @@ public class LoginSceneController implements Initializable {
         userList= new ArrayList<User>();
     
     userList.add(new User("1","mehedi1","Director of Administration") );
-    userList.add(new User("2","mehedi2","Director of Administration") );
+    userList.add(new User("2","mehedi2","Finance Officer") );
+     userList.add(new User("3","mehedi3","Faculty") );
+      userList.add(new User("4","mehed4","Chief Medical Officer") );
+       userList.add(new User("5","mehedi5","Cadet") );
+        userList.add(new User("6","mehedi6","Battalion Commander") );
+         
+    
     
          try{
                 FileOutputStream fos = new FileOutputStream("personnel.bin",true);
@@ -137,6 +143,50 @@ public class LoginSceneController implements Initializable {
                     if(idTextField.getText().contains("1"))
                     {
                    Parent sceneA= FXMLLoader.load(getClass().getResource("dashboardDOA.fxml"));
+        
+        
+        Scene sceneB = new Scene (sceneA);
+        Stage stg = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg.setScene(sceneB);
+        stg.show();  
+                    }
+                    
+                    if(idTextField.getText().contains("3"))
+                    {
+                   Parent sceneA= FXMLLoader.load(getClass().getResource("LoginasFacultyMember.fxml"));
+        
+        
+        Scene sceneB = new Scene (sceneA);
+        Stage stg = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg.setScene(sceneB);
+        stg.show();  
+                    }
+                    
+                    if(idTextField.getText().contains("4"))
+                    {
+                   Parent sceneA= FXMLLoader.load(getClass().getResource("LoginasChiefMedicalOfficer.fxml"));
+        
+        
+        Scene sceneB = new Scene (sceneA);
+        Stage stg = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg.setScene(sceneB);
+        stg.show();  
+                    }
+                    
+                     if(idTextField.getText().contains("5"))
+                    {
+                   Parent sceneA= FXMLLoader.load(getClass().getResource("Scene2viewtrainingschedule.fxml"));
+        
+        
+        Scene sceneB = new Scene (sceneA);
+        Stage stg = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stg.setScene(sceneB);
+        stg.show();  
+                    }
+                     
+                     if(idTextField.getText().contains("6"))
+                    {
+                   Parent sceneA= FXMLLoader.load(getClass().getResource("Scene18viewtrainingpersonalrank.fxml"));
         
         
         Scene sceneB = new Scene (sceneA);

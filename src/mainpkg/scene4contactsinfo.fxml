@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="545.0" prefWidth="734.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="bma.Scene4contactsinfoController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="649.0" prefWidth="946.0">
+         <children>
+            <Label layoutX="136.0" layoutY="26.0" prefHeight="38.0" prefWidth="706.0" text="                               Contacts Information">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <TextArea layoutX="73.0" layoutY="78.0" prefHeight="527.0" prefWidth="817.0" text=" Lt Col Md Naheduzzaman &#10; Email : ltnahed@gmail.com&#10; Phone No: 01512242225&#10;&#10; Lt Col Rouf &#10; Email : ltrouf@gmail.com&#10; Phone No: 01752212286&#10;&#10; Lt Col Hamid &#10; Email : lthamid@gmail.com&#10; Phone No: 01302453025&#10;&#10; Lt Col Mustafa&#10; Email : ltmustafa@gmail.com&#10; Phone No: 01430252425&#10;&#10; Lt Col Nur Mohammad &#10; Email : ltnurmohammad@gmail.com&#10; Phone No: 01452524254">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </TextArea>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
