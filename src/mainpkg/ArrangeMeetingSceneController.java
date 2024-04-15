@@ -27,17 +27,17 @@ public class ArrangeMeetingSceneController implements Initializable {
     @FXML
     private DatePicker meetingDatePicker1;
     @FXML
-    private ComboBox<String> sendtoEmployeeCB2;
+    private ComboBox<?> sendtoEmployeeCB2;
     @FXML
-    private TableView<MeetingSchedule> meetingScheduleTableView;
+    private TableView<?> meetingScheduleTableView;
     @FXML
-    private TableColumn<MeetingSchedule, Integer> employeeIDTC2;
+    private TableColumn<?, ?> employeeIDTC2;
     @FXML
-    private TableColumn<MeetingSchedule, String> meetingDateTC1;
+    private TableColumn<?, ?> meetingDateTC1;
     @FXML
-    private TableColumn<MeetingSchedule, String> meetingTimeTC1;
+    private TableColumn<?, ?> meetingTimeTC1;
     @FXML
-    private ComboBox<Integer> employeeforMeetingCB;
+    private ComboBox<?> employeeforMeetingCB;
 
     /**
      * Initializes the controller class.

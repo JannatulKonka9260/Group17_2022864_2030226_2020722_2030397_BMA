@@ -25,7 +25,7 @@ public class LeaveApplicationSceneController implements Initializable {
     @FXML
     private TextField employeeIDTF2;
     @FXML
-    private ComboBox<String> leaveTypeCB;
+    private ComboBox<?> leaveTypeCB;
     @FXML
     private DatePicker startDateCB1;
     @FXML

@@ -8,8 +8,8 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="619.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mehedi.PersonnelInformationSceneController">
-   <children>
+<AnchorPane id="AnchorPane" prefHeight="619.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PersonnelInformationSceneController">
+    <children>
       <Label layoutX="192.0" layoutY="39.0" text="Personnel ID" />
       <Label layoutX="192.0" layoutY="84.0" text="Previous Designation" />
       <Label layoutX="192.0" layoutY="133.0" text="Current Designation" />

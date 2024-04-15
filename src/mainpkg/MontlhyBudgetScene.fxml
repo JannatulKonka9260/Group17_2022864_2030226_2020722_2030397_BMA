@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="676.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mehedi.MontlhyBudgetController">
+<AnchorPane id="AnchorPane" prefHeight="676.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.MontlhyBudgetSceneController">
    <children>
-      <Label layoutX="89.0" layoutY="75.0" prefHeight="21.0" prefWidth="239.0" text="Enter Weapon and Protective Gear" />
-      <Label layoutX="89.0" layoutY="112.0" prefHeight="21.0" prefWidth="113.0" text="Enter Medical" />
-      <Label layoutX="89.0" layoutY="154.0" prefHeight="21.0" prefWidth="113.0" text="Enter Education" />
-      <Label layoutX="89.0" layoutY="201.0" prefHeight="21.0" prefWidth="113.0" text="Enter Food" />
-      <Label layoutX="89.0" layoutY="246.0" prefHeight="21.0" prefWidth="152.0" text="Enter Transportation" />
-      <TextField fx:id="weaponAndProtectiveGearLabel" layoutX="337.0" layoutY="70.0" />
-      <TextField fx:id="medicalLabel" layoutX="337.0" layoutY="107.0" />
-      <TextField fx:id="educationLabel" layoutX="337.0" layoutY="149.0" />
-      <TextField fx:id="foodLabel" layoutX="337.0" layoutY="196.0" />
-      <TextField fx:id="transportationLabel" layoutX="337.0" layoutY="241.0" />
+      <Label layoutX="90.0" layoutY="99.0" prefHeight="21.0" prefWidth="239.0" text="Enter Weapon and Protective Gear" />
+      <Label layoutX="96.0" layoutY="141.0" prefHeight="21.0" prefWidth="113.0" text="Enter Medical" />
+      <Label layoutX="96.0" layoutY="183.0" prefHeight="21.0" prefWidth="113.0" text="Enter Education" />
+      <Label layoutX="96.0" layoutY="230.0" prefHeight="21.0" prefWidth="113.0" text="Enter Food" />
+      <Label layoutX="96.0" layoutY="285.0" prefHeight="21.0" prefWidth="152.0" text="Enter Transportation" />
+      <TextField fx:id="weaponAndProtectiveGearTF" layoutX="335.0" layoutY="99.0" />
+      <TextField fx:id="medicalTF" layoutX="335.0" layoutY="136.0" />
+      <TextField fx:id="educationTF" layoutX="335.0" layoutY="178.0" />
+      <TextField fx:id="foodTF" layoutX="335.0" layoutY="225.0" />
+      <TextField fx:id="transportationTF" layoutX="335.0" layoutY="270.0" />
       <Button layoutX="642.0" layoutY="71.0" mnemonicParsing="false" onAction="#createMonthlyBudgetButtonMouseOnClick" prefHeight="195.0" prefWidth="138.0" text="Create Monthly Budget" textAlignment="CENTER" wrapText="true" />
-      <Button layoutX="298.0" layoutY="295.0" mnemonicParsing="false" onAction="#showMonthlyBudgetButtonMouseOnClick" prefHeight="43.0" prefWidth="280.0" text="Show Montlhy Budget" />
-      <TableView fx:id="monthlyBudgetTableView" layoutX="227.0" layoutY="363.0" prefHeight="200.0" prefWidth="473.0">
-        <columns>
-          <TableColumn fx:id="nameTC" prefWidth="353.0" text="Name" />
-          <TableColumn fx:id="amountTC" prefWidth="119.0" text="Amount" />
-        </columns>
-      </TableView>
+      <Button layoutX="296.0" layoutY="317.0" mnemonicParsing="false" onAction="#showMonthlyBudgetButtonMouseOnClick" prefHeight="43.0" prefWidth="280.0" text="Show Montlhy Budget" />
       <Button layoutX="346.0" layoutY="572.0" mnemonicParsing="false" onAction="#sendToDOAButtonMouseOnClick" prefHeight="43.0" prefWidth="180.0" text="Send" />
       <Button layoutX="667.0" layoutY="615.0" mnemonicParsing="false" onAction="#logoutButtonMouseOnClick" prefHeight="43.0" prefWidth="113.0" text="logout" />
+      <Label layoutX="96.0" layoutY="61.0" prefHeight="21.0" prefWidth="113.0" text="Budget Month" />
+      <TextField fx:id="budgetmonth" layoutX="337.0" layoutY="56.0" />
+      <Label layoutX="108.0" layoutY="26.0" text="Date" />
+      <DatePicker fx:id="budgetDate" layoutX="327.0" layoutY="20.0" />
+      <TextArea fx:id="displaybudgetTA" layoutX="85.0" layoutY="366.0" prefHeight="200.0" prefWidth="719.0" />
    </children>
 </AnchorPane>
