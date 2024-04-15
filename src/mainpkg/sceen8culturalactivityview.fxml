@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen8culturalactivityviewController">
+   <children>
+      <TextField fx:id="culturalprogramyear" layoutX="218.0" layoutY="31.0" prefHeight="26.0" prefWidth="202.0" text="select cultural program year" />
+      <Label layoutX="24.0" layoutY="31.0" prefHeight="26.0" prefWidth="168.0" text="select cultural program year" />
+      <TableView fx:id="tableview" layoutX="21.0" layoutY="154.0" prefHeight="200.0" prefWidth="508.0">
+        <columns>
+          <TableColumn fx:id="culturalevent" prefWidth="223.20001220703125" text="Cultural Event" />
+          <TableColumn fx:id="time" prefWidth="284.0" text="Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

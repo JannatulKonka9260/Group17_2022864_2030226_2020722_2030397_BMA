@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="656.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen2GradesubmissionController">
+   <children>
+      <RadioButton fx:id="full" layoutX="497.0" layoutY="64.0" mnemonicParsing="false" onAction="#selecttimeandsection" text="full" />
+      <Label layoutX="411.0" layoutY="60.0" prefHeight="26.0" prefWidth="78.0" text="All students " />
+      <Label layoutX="34.0" layoutY="51.0" prefHeight="26.0" prefWidth="78.0" text="select course " />
+      <ComboBox layoutX="163.0" layoutY="51.0" onAction="#course" prefWidth="150.0" promptText="course" />
+      <Label layoutX="34.0" layoutY="115.0" prefHeight="26.0" prefWidth="102.0" text="time and section " />
+      <ComboBox layoutX="163.0" layoutY="115.0" onAction="#selecttimeandsection" prefWidth="150.0" promptText="select Time and section " />
+      <Button layoutX="253.0" layoutY="366.0" mnemonicParsing="false" onAction="#confirm" prefHeight="54.0" prefWidth="150.0" text="Confirm" />
+      <TableView fx:id="tableview" layoutX="29.0" layoutY="155.0" prefHeight="200.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="namecoloumb" prefWidth="231.199951171875" text="Name of the student" />
+          <TableColumn fx:id="idcolomb" minWidth="8.0" prefWidth="211.2000732421875" text="ID" />
+            <TableColumn fx:id="gradecolomb" prefWidth="127.20000000000005" text="Grade" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

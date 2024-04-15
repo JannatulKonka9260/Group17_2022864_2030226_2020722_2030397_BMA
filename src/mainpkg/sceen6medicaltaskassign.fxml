@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen6medicaltaskassignController">
+   <children>
+      <TextField fx:id="showtask" layoutX="126.0" layoutY="35.0" text="showtask" />
+      <Label layoutX="23.0" layoutY="38.0" prefHeight="18.0" prefWidth="78.0" text="task" />
+      <TableView fx:id="table" layoutX="28.0" layoutY="124.0" prefHeight="200.0" prefWidth="525.0">
+        <columns>
+          <TableColumn fx:id="eventname" prefWidth="297.60003662109375" text="Event Name" />
+          <TableColumn fx:id="eventtimeanddate" prefWidth="227.199951171875" text="Event time and date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

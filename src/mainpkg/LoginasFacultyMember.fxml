@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="652.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.LoginasFacultyMemberController">
+   <children>
+      <TextField fx:id="ContinueasFacultyMember" layoutX="251.0" layoutY="37.0" />
+      <Label layoutX="38.0" layoutY="37.0" prefHeight="33.0" prefWidth="188.0" text="Continue as FacultyMember" />
+      <Button layoutX="46.0" layoutY="130.0" mnemonicParsing="false" onAction="#SelectCourse" prefHeight="26.0" prefWidth="138.0" text="Select Course" />
+      <Button layoutX="46.0" layoutY="192.0" mnemonicParsing="false" onAction="#GradeSubmission" prefHeight="26.0" prefWidth="138.0" text="Grade Submission" />
+      <Button layoutX="46.0" layoutY="251.0" mnemonicParsing="false" onAction="#ViewPayslip" prefHeight="26.0" prefWidth="138.0" text="View Payslip" />
+      <Button layoutX="46.0" layoutY="303.0" mnemonicParsing="false" onAction="#ViewAssigntask" prefHeight="26.0" prefWidth="138.0" text="View Assign task" />
+      <Button layoutX="398.0" layoutY="130.0" mnemonicParsing="false" onAction="#Createworkschedule" prefHeight="26.0" prefWidth="159.0" text="Create work schedule" />
+      <Button layoutX="398.0" layoutY="192.0" mnemonicParsing="false" onAction="#applyforleave" prefHeight="26.0" prefWidth="159.0" text="Apply for Leave" />
+      <Button layoutX="398.0" layoutY="251.0" mnemonicParsing="false" onAction="#checkstudentactivity" prefHeight="26.0" prefWidth="159.0" text="Check Student Activity" />
+      <Button layoutX="398.0" layoutY="303.0" mnemonicParsing="false" onAction="#viewculturalactivity" prefHeight="26.0" prefWidth="159.0" text="View Cultural Activity" />
+      <Button layoutX="398.0" layoutY="381.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="159.0" text="Log out" />
+   </children>
+</AnchorPane>

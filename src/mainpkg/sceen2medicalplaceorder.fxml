@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen2medicalplaceorderController">
+   <children>
+      <TableView fx:id="table" layoutX="80.0" layoutY="100.0" prefHeight="200.0" prefWidth="407.0">
+        <columns>
+          <TableColumn fx:id="nameoftheequipment" prefWidth="198.4000244140625" text="name  of the quipments" />
+          <TableColumn fx:id="number" prefWidth="208.79998779296875" text="numbers" />
+        </columns>
+      </TableView>
+      <Label layoutX="52.0" layoutY="31.0" prefHeight="18.0" prefWidth="198.0" text="place total no quipments" />
+      <TextField fx:id="placetotalquipmentsnoequipments" layoutX="272.0" layoutY="27.0" prefHeight="26.0" prefWidth="212.0" />
+      <Button layoutX="230.0" layoutY="322.0" mnemonicParsing="false" onAction="#confirm" prefHeight="34.0" prefWidth="162.0" text="confirm" />
+   </children>
+</AnchorPane>

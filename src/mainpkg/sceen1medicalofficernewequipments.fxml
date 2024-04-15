@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen1medicalofficernewequipmentsController">
+   <children>
+      <TextField fx:id="showlist" layoutX="170.0" layoutY="35.0" text="show list" />
+      <Label layoutX="28.0" layoutY="39.0" prefHeight="26.0" prefWidth="118.0" text="show list" />
+      <TableView fx:id="tableview" layoutX="28.0" layoutY="114.0" prefHeight="200.0" prefWidth="461.0">
+        <columns>
+          <TableColumn fx:id="nameoftheequipments" prefWidth="233.60003662109375" text="name of equipments" />
+          <TableColumn fx:id="numbers" minWidth="0.0" prefWidth="227.199951171875" text="numbers" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

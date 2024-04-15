@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="683.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="Konka.Sceen1SelectcourseController">
+   <children>
+      <Label layoutX="24.0" layoutY="52.0" prefHeight="26.0" prefWidth="78.0" text="Courses" />
+      <Label layoutX="24.0" layoutY="96.0" prefHeight="26.0" prefWidth="78.0" text="Time" />
+      <ComboBox fx:id="selectcourse" layoutX="122.0" layoutY="53.0" prefHeight="26.0" prefWidth="231.0" promptText="select course" />
+      <Button layoutX="281.0" layoutY="253.0" mnemonicParsing="false" onAction="#confirm" prefHeight="46.0" prefWidth="142.0" text="Confirm" />
+      <ComboBox fx:id="selecttime" layoutX="122.0" layoutY="96.0" prefHeight="26.0" prefWidth="231.0" promptText="select time" />
+   </children>
+</AnchorPane>
