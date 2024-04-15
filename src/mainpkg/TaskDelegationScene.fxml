@@ -8,7 +8,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mehedi.TaskDelegationSceneController">
+<AnchorPane id="AnchorPane" prefHeight="642.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.TaskDelegationSceneController">
    <children>
       <Label layoutX="51.0" layoutY="38.0" text="Task" />
       <Label layoutX="51.0" layoutY="87.0" text="Deadline for the task" />

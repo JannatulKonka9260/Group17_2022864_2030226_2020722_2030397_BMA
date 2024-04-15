@@ -6,12 +6,10 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="844.0" prefWidth="911.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Mehedi.SalaryPaySceneController">
+<AnchorPane id="AnchorPane" prefHeight="844.0" prefWidth="911.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.SalaryPaySceneController">
    <children>
       <Label layoutX="289.0" layoutY="34.0" text="Instituition's Name:" />
       <Label layoutX="289.0" layoutY="79.0" text="Address:" />
@@ -39,14 +37,12 @@
       <Button layoutX="504.0" layoutY="380.0" mnemonicParsing="false" onAction="#showPySlipButtonMouseClick" text="Show Payslip" />
       <AnchorPane fx:id="payslipAnchorPane2" layoutX="76.0" layoutY="435.0" prefHeight="332.0" prefWidth="750.0">
          <children>
-            <TextArea fx:id="paySlipOutputTextArea1" prefHeight="155.0" prefWidth="750.0" />
-            <TableView fx:id="paySlipTableView" layoutY="155.0" prefHeight="171.0" prefWidth="750.0">
+            <TableView fx:id="paySlipTableView" layoutY="-6.0" prefHeight="332.0" prefWidth="750.0">
               <columns>
                 <TableColumn fx:id="earningTypeTC" prefWidth="189.0" text="Earning Type" />
                 <TableColumn fx:id="earningAmountTC" prefWidth="125.0" text="Amount" />
                   <TableColumn fx:id="deductionTypeTC" prefWidth="193.0" text="Deduction Type" />
-                  <TableColumn fx:id="deductionAmountTC" prefWidth="108.0" text="Amount" />
-                  <TableColumn fx:id="amountToPayTC" prefWidth="133.0" text="Amount to Pay" />
+                  <TableColumn fx:id="deductionAmountTC" prefWidth="242.0" text="Amount" />
               </columns>
             </TableView>
          </children>

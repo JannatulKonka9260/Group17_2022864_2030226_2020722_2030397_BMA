@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="626.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Mehedi.FinancialPolicySceneController">
+   <children>
+      <Label layoutX="67.0" layoutY="49.0" text="Financial Policy" />
+      <TextArea fx:id="writeFinancialPolicyTA" layoutX="68.0" layoutY="75.0" prefHeight="119.0" prefWidth="691.0" />
+      <Button layoutX="129.0" layoutY="291.0" mnemonicParsing="false" onAction="#createFinancialPolicyButtonMouseOnClick" text="Create Financial Policy" />
+      <TextArea fx:id="showFinancialPolicyTA" layoutX="68.0" layoutY="334.0" prefHeight="200.0" prefWidth="691.0" />
+      <Button layoutX="387.0" layoutY="548.0" mnemonicParsing="false" onAction="#sendToDOAButtonMouseOnClick" text="Send" />
+      <Button layoutX="520.0" layoutY="291.0" mnemonicParsing="false" onAction="#showFinancialPolicyButtonMouseOnClick" text="Show Financial Policy" />
+      <Button layoutX="676.0" layoutY="579.0" mnemonicParsing="false" onAction="#logoutButtonMouseOnClick" prefHeight="31.0" prefWidth="83.0" text="Logout" />
+      <DatePicker fx:id="lastUpdated1" layoutX="213.0" layoutY="208.0" />
+      <Label layoutX="79.0" layoutY="213.0" text="Last Updated" />
+   </children>
+</AnchorPane>
